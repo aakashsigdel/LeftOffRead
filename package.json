@@ -1,9 +1,9 @@
 {
-  "name": "addonpractice",
-  "title": "AddonPractice",
+  "name": "leftoffread",
+  "title": "Left Off Read",
   "id": "jid1-tkTQXj6dJPPbMg",
-  "description": "a basic add-on",
-  "author": "",
+  "description": "Save Your Content For Later Reading",
+  "author": "KuchoIT",
   "license": "MPL 2.0",
   "version": "0.1"
 }
