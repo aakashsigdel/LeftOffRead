@@ -1,0 +1,14 @@
+Date: 12/22/2014
+==================================================================
+
+=> Added Title, All text, Url Storage
+=> Added boilerplate function for all these changes
+=> Refined panel.html
+=> Made PushData.js to push node in chronological order
+=> Converting the data to JSON and writing it to a file
+
+Date: 12/23/2014
+==================================================================
+
+=> Fixed OS.File.exists() issue
+
