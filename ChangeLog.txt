@@ -12,3 +12,4 @@ Date: 12/23/2014
 
 => Fixed OS.File.exists() issue
 => Added reading saved json from file and loading it into panel at load
+=> Displayed the first loaded content on panel on chronological order
