@@ -1,6 +1,19 @@
-.gradientBoxesWithOuterShadows { 
-border-radius: 0px 87px 0px 0px;
--moz-border-radius: 0px 87px 0px 0px;
--webkit-border-radius: 0px 87px 0px 0px;
-border: 0px solid #000000;
+.gradientBoxesWithOuterShadows {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 300px;
+  padding: 5px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 0 0 8px;
+  border-radius: 0 0 8px;
+  font: normal 16px/1 Tahoma, Geneva, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #0199d9;
+  -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 }
