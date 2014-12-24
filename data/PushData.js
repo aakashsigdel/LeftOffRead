@@ -15,6 +15,6 @@ self.port.on("display", function(selectedString, noOfEntriesCounter) {
 //Listen to link clicked on panel
 window.addEventListener('click', function(event) {
 	var t = event.target;
-	if(t.nodeName = 'A')
+	if(t.nodeName == 'A')
 		self.port.emit('click-link', t.toString());
 }, false);

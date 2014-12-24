@@ -10,4 +10,11 @@ self.port.on("data-avail", function(entryData) {
 	contentLinkAttr.value = entryData.currentURL;
 	contentLink.setAttributeNode(contentLinkAttr);
 	contentLink.innerHTML = "Click Here To Read The Whole Article";
-})
+});
+
+window.addEventListener('click', function(event) {
+	var t = event.target;
+	event.preventDefault();
+	if(t.id == 'content-link') 
+		self.port.emit('content-link', t.href);
+});
