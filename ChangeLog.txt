@@ -22,3 +22,9 @@ Date: 12/24/2014
 => added continue reading opeaning on tabs.
 => fixed issue of of loading of same content while clicking different titles.
 => fixed undelete issue
+
+
+Date: 12/26/2014
+===================================================================
+
+=> added styles
